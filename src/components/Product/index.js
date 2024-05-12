@@ -9,7 +9,7 @@ const Product = () => {
       try {
         const apiUrl = "https://fakestoreapi.com/products";
         const options = {
-          method = 'GET',
+          method : 'GET',
         }
         const response = await fetch(apiUrl, options)
         const fetchedData = await response.json()
